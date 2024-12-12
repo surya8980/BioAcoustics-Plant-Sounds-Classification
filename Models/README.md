@@ -1,12 +1,11 @@
 # Plant Stress Classification using Ultrasonic Airborne Sounds  
-**Approach**  
-1.SVM Baseline Classifier:
-
+# **Approach**  
+**1.SVM Baseline Classifier:**
 - The SVM model was tested using every pair of groups (e.g., drought-stressed, cut, control) to check for data balance and assess its utility for classification.
 - The SVM was trained using a linear kernel and included feature scaling to normalize the features before training.
 - The model's accuracy was computed to evaluate the dataset's balance and usefulness for further classification tasks.
 
-2.Convolutional Neural Network (CNN):
+**2.Convolutional Neural Network (CNN):**
 
 - CNNs are a powerful tool for automatic feature extraction and classification, especially for tasks involving image or sound data.
 - CNNs are particularly suitable for this project due to their ability to identify complex patterns without human supervision and prevent overfitting using weight sharing.
